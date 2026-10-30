@@ -1,0 +1,1 @@
+Place your JPG, JPEG, PNG, WEBP, or GIF photos in this folder. The gallery reads them automatically.

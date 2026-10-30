@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Monthsary Lannga 💛🌸</title>
+
+  <!-- Tailwind + daisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet">
+
+  <!-- Google Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,500,1,0" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body class="min-h-screen bg-[#faf4ed] text-[#65483f] overflow-x-hidden">
+
+  <!-- Floral side decorations: uploaded image on both sides -->
+  <div class="fixed inset-y-0 left-0 w-24 md:w-52 opacity-[.7] max-[455px]:opacity-[.3] z-0 pointer-events-none overflow-hidden">
+    <img
+      src="left.webp"
+      alt=""
+      class="h-full w-full object-cover object-left mix-blend-multiply opacity-95"
+    >
+  </div>
+
+  <div class="fixed inset-y-0 right-0 w-24 md:w-52 opacity-[.7] max-[455px]:opacity-[.3] z-0 pointer-events-none overflow-hidden">
+    <img
+      src="left.webp"
+      alt=""
+      class="h-full w-full object-cover object-left scale-x-[-1] mix-blend-multiply opacity-95"
+    >
+  </div>
+
+  <main class="max-w-5xl mx-auto px-5 py-12 relative z-10">
+
+    <!-- Header -->
+    <header class="text-center mb-12">
+      <p class="uppercase tracking-[0.4em] text-xs text-[#ad8173] mb-4">
+        Lannga
+      </p>
+
+      <h1 class="text-5xl md:text-7xl font-normal italic"
+          style="font-family:'Great Vibes',cursive">
+        Happy Monthsary
+      </h1>
+
+      <p class="mt-4 text-sm tracking-widest text-[#a78376]">
+        EVERY MOMENT WITH YOU IS SPECIAL
+      </p>
+
+      <div class="flex justify-center items-center gap-3 mt-5">
+        <span class="text-[#c48d83]">────</span>
+        <span class="material-symbols-rounded text-[#bd8177]">favorite</span>
+        <span class="text-[#c48d83]">────</span>
+      </div>
+    </header>
+
+    <!-- Envelope Section -->
+    <section id="giftSection" class="relative z-10 text-center py-10">
+
+      <button id="envelopeButton" type="button"
+        class="group mx-auto flex flex-col items-center gap-5 cursor-pointer">
+
+        <img
+          id="envelopeImage"
+          src="close.webp"
+          data-closed="close.webp"
+          data-open="open.webp"
+          alt="My Love Letter"
+          class="w-full max-w-[520px] object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-105"
+        >
+
+        <span id="envelopeText" class="text-xl italic text-[#ad8173]"
+          style="font-family:'Playfair Display',serif">
+          A special letter for you ❤️
+        </span>
+
+        <!-- <span id="envelopeButtonText"
+          class="btn bg-[#d98291] text-white border-0 rounded-full px-10 hover:bg-[#c5687a]">
+          <span class="material-symbols-rounded">mail</span>
+          Open My Letter
+        </span> -->
+      </button>
+
+      <p id="envelopeInstruction" class="text-xs text-[#ae8d80] mt-6 tracking-widest">
+        CLICK THE ENVELOPE TO OPEN YOUR LETTER
+      </p>
+    </section>
+
+    <!-- Love Letter -->
+    <section id="letterSection"
+      class="hidden relative z-20 -mt-[330px] md:-mt-[450px] pointer-events-none opacity-0 translate-y-8 transition-all duration-1000">
+
+      <div class="max-w-[480px] mx-auto bg-[#fffdf8] shadow-2xl border border-[#eadbce] rounded-sm p-7 md:p-10 relative z-30">
+
+        <!-- Letter decoration -->
+        <div class="text-center mb-8">
+          <span class="text-3xl">🌹</span>
+
+          <h2 class="text-4xl md:text-6xl mt-4"
+              style="font-family:'Great Vibes',cursive">
+            To My Love
+          </h2>
+
+          <p class="text-xs tracking-[0.3em] mt-4 text-[#b38c7c]">
+            A LETTER FROM MY HEART
+          </p>
+        </div>
+
+        <div class="border-y border-[#eadbce] py-8 leading-8 text-[#75594f]"
+             style="font-family:'Playfair Display',serif">
+
+          <p class="mb-5">Hi, Gha!! Happy 2nd Monthsary sa atoang duha! 💛🌸🌹🌹🌹</p>
+
+          <p class="mb-5">
+            Grabe ka happy akong heart kay nakaabot na ta ani nga point. Two months na ta,
+            and I'm so thankful nga niabot ka sa akong life, Gha. Thank you for everything,
+            sa imong love ug sa tanan nimong efforts para sa akoa.
+          </p>
+
+          <p class="mb-5">
+            Bisan LDR ta, bisan layo kaayo ta sa usag usa, wala gyud nako na-feel nga
+            nagkulang imong love. Kay every day, makita ug ma-feel gihapon nako kung unsa
+            ko nimo ka-love. Makita nako imong efforts, imong time, ug imong paghatag ug
+            assurance bisan pa sa distance nga naa sa atoang duha.
+          </p>
+
+          <p class="mb-5">
+            Usahay makahuna-huna ko nga unta pwede ra nako baklayon ang Ormoc gikan diri
+            sa CDO para lang dali-dali ko makaadto nimo. HAHAHA! Grabe na gyud kaayo akong
+            mingaw sa imong hugs, kisses, ug sa imong presence, Gha. I miss everything
+            about you.
+          </p>
+
+          <p class="mb-5">
+            Dili gyud nako makalimtan tong first time nako niadto sa Ormoc para makigkita
+            nimo. Grabe kaayo akong excitement ato nga time. Kanang feeling nga hapit na
+            tika makita in person, murag dili ma-explain sa words akong kalipay. And when
+            I finally got to see you, it became one of the happiest moments of my life.
+            Usa to sa mga memories nga akong i-treasure forever.
+          </p>
+
+          <p class="mb-5">
+            Thank you, Gha, kay gipakita nimo sa akoa kung unsa gyud ang feeling nga
+            ma-love ug tinuod. Thank you for making me feel appreciated, valued, and loved.
+            Thank you kay bisan layo ta, gipakita nimo nga ang distance dili sukdanan sa
+            tinuod nga gugma.
+          </p>
+
+          <p class="mb-5">
+            I hope nga daghan pa kaayo tag monthsaries, memories, adventures, hugs, kisses,
+            ug moments nga atong ma-share together. Someday, dili na ta mag-countdown kung
+            kanus-a ta magkita kay naa na ta sa usag usa, no more long distance, just you
+            and me.
+          </p>
+
+          <p class="mb-5">
+            Happy 2nd Monthsary again, my Gha! I love you so much. Always remember nga
+            naa ra gyud ko diri, loving you, choosing you, and appreciating you every
+            single day.
+          </p>
+
+          <p>
+            <strong>Two months down, and many more months and years to go. Ikaw gihapon
+            akong pili-on, Gha. Always.</strong> 💛😘
+          </p>
+            <br><br>
+            <p>
+            <strong>I Love you gha🌸 always and forever your</strong>🌸🌹🌹🌹
+          </p>
+        </div>
+
+        <div class="text-right mt-8">
+          <p class="italic text-sm">With all my love,</p>
+          <h3 class="text-4xl mt-2"
+              style="font-family:'Great Vibes',cursive">
+            Yours Forever 💛
+          </h3>
+        </div>
+
+      </div>
+
+      <!-- Couple Memories -->
+      <div class="mt-20 text-center">
+
+        <p class="text-xs tracking-[0.4em] text-[#ad8173]">
+          OUR BEAUTIFUL MEMORIES
+        </p>
+
+        <h2 class="text-5xl mt-4"
+            style="font-family:'Great Vibes',cursive">
+          Just You & Me
+        </h2>
+
+        <p class="text-sm text-[#a78376] mt-3">
+          Every picture tells a story of us.
+        </p>
+
+        <!-- Photo Gallery -->
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-5 mt-12">
+
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/1.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+             Pang's favorite girl 💛🌸
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/2.jpg"
+              class="w-full aspect-[4/6] object-cover object-left"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Gha's happiest smile.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/3.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Cute lang
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/4.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+             Maski ma suko beautiful gehapun!!.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/5.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Walking through life together.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/6.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Our colorful little memories.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/7.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              awkward but loving.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/8.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              A moment worth keeping.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/9.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              christmas tree dao ni sa Ormoc
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/10.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Making memories with Pangga.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/11.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+             Just us, being us.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/12.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              My heart found its home.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/13.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              🌸🍀
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/14.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Plaza de Ormoc
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/15.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Ang akung pahulay!  
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/16.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Tayu na?!!
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/17.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Night Shift Mata lang ug 4pm kai mag tanaw cine
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/18.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Gugma nga walay maka baylo., bayloa testing kai na!!
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/19.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Tulog nata gha😴💤
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/20.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Anime Version
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/21.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Uli nata gha na, Uli nata sa ato..
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/22.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              My Gha, my happiness.
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/23.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Screen Shot nga dili gyud ma timingan ang Post Sorry gha🥺 ayaw lihok sunod..
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/24.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Maka anha unta ko everyday para ma hug ka gha🥺 I Miss You gha...
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/25.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Lugar nga asa naka limot sa script kai ge kulbaan,. ge hatag nalang ang sing-sing😅💍
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/26.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Picture kai nag kaun pa siya
+            </p>
+          </div>          
+          
+          <!-- Photo 1 -->
+          <div class="bg-white p-3 pb-7 shadow-xl -rotate-3 hover:rotate-0 transition duration-300">
+            <img
+              src="img/27.jpg"
+              class="w-full aspect-[4/6] object-cover object-top"
+              alt="Our memory 1">
+            <p class="mt-4 italic text-sm"
+               style="font-family:'Playfair Display',serif">
+              Loooooooveeeee kaayu nko ni siya!!
+            </p>
+          </div>
+ 
+
+        </div>
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="text-center py-20">
+        <span class="text-4xl">💗</span>
+
+        <h2 class="text-4xl mt-5"
+            style="font-family:'Great Vibes',cursive">
+          I Choose You, Always.
+        </h2>
+
+        <p class="text-xs tracking-widest mt-5 text-[#ae8d80]">
+          MADE WITH LOVE JUST FOR YOU
+        </p>
+      </footer>
+
+    </section>
+
+  </main>
+
+  <!-- jQuery Interaction -->
+  <script>
+    $(document).ready(function() {
+      let isOpen = false;
+      let isAnimating = false;
+
+      const envelope = $("#envelopeImage");
+      const letter = $("#letterSection");
+      const envelopeButton = $("#envelopeButton");
+
+      // Preload both envelope images so the opening feels smooth.
+      [envelope.data("closed"), envelope.data("open")].forEach(function(src) {
+        const image = new Image();
+        image.src = src;
+      });
+
+      envelopeButton.on("click", function() {
+        if (isAnimating) return;
+
+        isAnimating = true;
+        envelopeButton.prop("disabled", true);
+
+        if (!isOpen) {
+          // PHASE 1: Animate the closed envelope.
+          envelope.removeClass("scale-100")
+                  .addClass("scale-95 rotate-1");
+
+          $("#envelopeText").text("Opening your letter... ❤️");
+          $("#envelopeInstruction").text("A LITTLE SURPRISE IS ON ITS WAY");
+
+          // PHASE 2: Show the open-envelope image after the opening motion.
+          setTimeout(function() {
+            envelope.attr("src", envelope.data("open"));
+            envelope.removeClass("scale-95 rotate-1")
+                    .addClass("scale-105");
+
+            setTimeout(function() {
+              envelope.removeClass("scale-105").addClass("scale-100");
+
+              // PHASE 3: Only after the envelope is open, reveal the letter.
+              letter.removeClass("hidden");
+              void letter[0].offsetWidth;
+
+              letter.removeClass("opacity-0 translate-y-8")
+                    .addClass("opacity-100 translate-y-0");
+
+              $("#envelopeText").text("A special letter for you ❤️");
+              $("#envelopeButtonText").html(
+                '<span class="material-symbols-rounded">mail</span> Close My Letter'
+              );
+              $("#envelopeInstruction").text("CLICK AGAIN TO CLOSE YOUR LETTER");
+
+              isOpen = true;
+              isAnimating = false;
+              envelopeButton.prop("disabled", false);
+
+              $("html, body").stop().animate({
+                scrollTop: letter.offset().top - 30
+              }, 700);
+
+            }, 850);
+          }, 700);
+
+        } else {
+          // PHASE 1: Hide the letter first.
+          letter.removeClass("opacity-100 translate-y-0")
+                .addClass("opacity-0 translate-y-8");
+
+          $("#envelopeText").text("Folding your letter... ❤️");
+
+          // PHASE 2: Close the envelope after the letter retracts.
+          setTimeout(function() {
+            letter.addClass("hidden");
+            envelope.removeClass("scale-100")
+                    .addClass("scale-95 -rotate-1");
+
+            setTimeout(function() {
+              envelope.attr("src", envelope.data("closed"));
+              envelope.removeClass("scale-95 -rotate-1")
+                      .addClass("scale-100");
+
+              $("#envelopeText").text("A special letter for you ❤️");
+              $("#envelopeButtonText").html(
+                '<span class="material-symbols-rounded">mail</span> Open My Letter'
+              );
+              $("#envelopeInstruction").text("CLICK THE ENVELOPE TO OPEN YOUR LETTER");
+
+              isOpen = false;
+              isAnimating = false;
+              envelopeButton.prop("disabled", false);
+            }, 350);
+          }, 700);
+        }
+      });
+    });
+  </script>
+<audio id="bgMusic" autoplay loop>
+    <source src="./loveletters.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const bgMusic = document.getElementById('bgMusic');
+
+    bgMusic.volume = 1;
+
+    window.addEventListener('load', () => {
+        bgMusic.play().catch(() => {
+            document.addEventListener('click', () => {
+                bgMusic.play();
+            }, { once: true });
+        });
+    });
+</script>
+</body>
+</html>
